@@ -1,0 +1,39 @@
+
+
+
+body { 
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight : 300;
+}
+
+.text-muted { 
+	color : #bcbbbb;	
+}
+
+.text-thin {
+	font-weight : 100;
+}
+
+.title-super { 
+	font-size : 60px;
+}
+
+.title-logo {
+	margin-top : 20px;
+	width : 100px;
+	height: 100px;
+}
+
+hr {
+	height : 4px;
+	background-color: #BCBBBB;
+}
+
+	@media ( max-width : 500px ){
+		
+		.title-logo { display : none ;}
+		#my-name { text-align : left;}
+		h4 { display : none ;}
+		
+	}
